@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PostOffice</string>
+    <string name="app_name_support">PostOffice Support</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="message">This is a test of the emergency Bacon system. If you or your family are in danger
+        of running out of bacon, please contact emergency services. This is not a drill, Bacon is love,
+        Bacon is life. May the Bacon gods have pity on your family and bless you with its meaty
+        goodness.
+    </string>
+    <string name="message_long">This app determines your phones location and shares it with Google in
+        order to serve personalized alerts to you. This allows for a better overall app experience. Hue
+        Hue Hue Hue, This is a test of the emergency Bacon system. If you or your family are in danger
+        of running out of bacon, please contact emergency services. This is not a drill, Bacon is love,
+        Bacon is life. May the Bacon gods have pity on your family and bless you with its meaty
+        goodness.This is a test of the emergency Bacon system. If you or your family are in danger
+        of running out of bacon, please contact emergency services. This is not a drill, Bacon is love,
+        Bacon is life. May the Bacon gods have pity on your family and bless you with its meaty
+        goodness.This is a test of the emergency Bacon system. If you or your family are in danger
+        of running out of bacon, please contact emergency services. This is not a drill, Bacon is love,
+        Bacon is life. May the Bacon gods have pity on your family and bless you with its meaty
+        goodness.
+    </string>
+    <string name="title">Alert holo title</string>
+    <string name="action1">Ok</string>
+    <string name="action2">cancel</string>
+    <string name="mtrl_title">Edit Text Material Design</string>
+    <string name="mtrl_alert_title">Material holo title</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Light" parent="android:Theme.Holo.Light">
+        <!--<item name="title_color">@color/title_light</item>-->
+        <!--<item name="content_color">@color/content_light</item>-->
+        <!--<item name="item_color">@color/item_light</item>-->
+        <!--<item name="button_color">@color/button_light</item>-->
+        <item name="divider_color">@color/divider_black</item>
+        <item name="list_selector">@drawable/dialog_selector</item>
+    </style>
+
+    <style name="Dark" parent="android:Theme.Holo">
+        <!--<item name="title_color">@color/title_dark</item>-->
+        <!--<item name="content_color">@color/content_dark</item>-->
+        <!--<item name="item_color">@color/item_dark</item>-->
+        <!--<item name="button_color">@color/button_dark</item>-->
+        <item name="divider_color">@color/divider_white</item>
+        <item name="list_selector">@drawable/dialog_selector_dark</item>
+    </style>
+
+    <style name="ActionButtonStacked" parent="@style/ActionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">right|center_vertical</item>
+
+        <item name="android:paddingLeft">@dimen/button_padding_horizontal_internalexternal</item>
+        <item name="android:paddingRight">@dimen/button_padding_horizontal_internalexternal</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+
+    <style name="ActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@android:string/ok</item>
+        <item name="android:textSize">@dimen/button_textsize</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+
+        <item name="android:paddingTop">@dimen/button_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/button_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/button_padding_horizontal_internal</item>
+        <item name="android:paddingRight">@dimen/button_padding_horizontal_internal</item>
+        <item name="android:layout_marginLeft">@dimen/button_padding_horizontal_external</item>
+    </style>
+
+</resources>
